@@ -12,7 +12,7 @@ int ev_print_func(const char *s, int index)
 		{"c", print_chr}, {"s", print_str}, {"i", print_int}, {"o", print_oct},
 		{"x", print_hex}, {"X", print_upx}, {"d", print_int}, {"%", print_prg},
 		{" %", print_prg}, {"b", print_bnr}, {"u", print_unt}, {"S", print_usr},
-		{NULL, NULL},
+		{"p", print_add}, {NULL, NULL},
 	};
 	int i = 0, j = 0, first_index;
 
